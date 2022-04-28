@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" href="img/gta.logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home page</a>
+        </nav>
+        <h1>Stickerz-Cart</h1>
+    </header>
+    <main>
+        <h2>Products</h2>
+        <table>
+            <tr>
+                <td>
+                    <img width="20" src="img/gta3.logo.png" alt="gta 3">
+                </td>
+                <td>
+                    GTA 3
+                </td>
+                <td>
+                    <input type="number" value="1" min="1">
+                </td>
+                <td>
+                    $178.00USD
+                </td>
+                <td>
+                    🗑
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img width="20" src="img/gtavc.logo.png" alt="gta vice city">
+                </td>
+                <td>
+                    GTA Vice City
+                </td>
+                <td>
+                    <input type="number" value="1" min="1">
+                </td>
+                <td>
+                    $178.00USD
+                </td>
+                <td>
+                    🗑
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="2">Total: $266.00USD</td>
+            </tr>
+        </table>
+        <h2>PLACE AN ORDER</h2>
+        <form action="https://formspree.io/f/meqnpzrw" method="post">
+            <lable>
+                Name*
+                <input type="text" name="Name" placeholder="Your name" required>
+            </lable>
+            <br>
+            <lable>
+                Email*
+                <input type="emile" name="Emile" placeholder="Your emile address" required>
+            </lable>
+            <br>
+            <lable>
+                Phone* 
+                <input type="tel" name="Phone" placeholder="Your phone" required>
+            </lable>
+            <br>
+            <label>
+                Comment
+                <textarea name="comment" cols="30" rows="10"></textarea>
+            </label>
+            <input type="submit" value="Order">
+        </form>
+        <a href="index.html">Continue shopping</a>
+    </main>
+</body>
+</html>
